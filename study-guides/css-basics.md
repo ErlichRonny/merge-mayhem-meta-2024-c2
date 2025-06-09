@@ -1,3 +1,16 @@
+- 
+Scrap 1 & 2
+In order to style the element on a page, CSS uses rule sets that contain specific properties and their values to apply to the elements. Let's take a look at the syntax of a rule set and explore deeper into its meaning.
+
+HTML files typically contain things like:
+
+- the text contents of a web page, structured into a hierarchy of page elements
+- hyperlinks to other pages
+- references to other files like images, CSS files, and JavaScript files
+- definitions for interactive controls like buttons and text fields
+- metadata to help web browsers understand the contents of the page
+
+
 # CSS Basics
   - Property: A property is the type of style on an HTML element. This includes color, positioning, font, border, etc. Check out MDN Docs for a full list of CSS properties.
   - Value: This is the exact style you want to implement on your website. In the example above, we want to use the color `navy` in the `body` of our website.
@@ -11,15 +24,6 @@ There are many great reference materials to read about different CSS properties 
 Let’s take a step back and review different CSS selectors and their associated syntax. For this we will focus on the basic selectors, but we highly recommend you check out MDN Docs for a [full list of CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors).
 =======
 
-In order to style the element on a page, CSS uses rule sets that contain specific properties and their values to apply to the elements. Let's take a look at the syntax of a rule set and explore deeper into its meaning.
-
-HTML files typically contain things like:
-
-- the text contents of a web page, structured into a hierarchy of page elements
-- hyperlinks to other pages
-- references to other files like images, CSS files, and JavaScript files
-- definitions for interactive controls like buttons and text fields
-- metadata to help web browsers understand the contents of the page
 
 | Selector | Description | Syntax |
 |----------|-------------|--------|
