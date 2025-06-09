@@ -28,3 +28,20 @@ HTML files typically contain things like:
 | [Class Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) | This selector uses the `.` symbol followed by the class name (as identified by the attributes of some elements in the HTML document) to apply styling rules to all elements with the same class name. | `.className { property: value; }` |
 | [Id Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors) | This selector uses the `#` symbol followed by the id name to apply styling rules to a single element. | `#idName { property: value; }` |
 
+In some cases, a particular element may have multiple rule sets that can apply. Let's take a look at an example. For this example, let's assume that we have an HTML `p` element with an id name of `attribution`.
+
+```css
+p {
+    font-size: 12px;
+    color: black;
+}
+
+#attribution {
+    font-size: 9px;
+}
+```
+
+In this example, the attribution `p` element will have adopt the following properties:
+
+- `font-size: 9px;`
+- `color: black;`
