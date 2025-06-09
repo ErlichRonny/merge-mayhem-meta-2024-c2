@@ -28,3 +28,6 @@ HTML files typically contain things like:
 | [Class Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) | This selector uses the `.` symbol followed by the class name (as identified by the attributes of some elements in the HTML document) to apply styling rules to all elements with the same class name. | `.className { property: value; }` |
 | [Id Selector](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors) | This selector uses the `#` symbol followed by the id name to apply styling rules to a single element. | `#idName { property: value; }` |
 
+If an element has two or more conflicting CSS rules, the website will determine the style rule by the specificity of the selector used in the rule set. Since an id selector affects only 1 element and a class selector affects more than one element, this means that a rule in an id selector rule set would trump the rule in a class selector. So in short, id > class > type > universal.
+
+There are many rules in distinguishing between the specificity of a rule. In fact, developers have created a formula in order to calculate specificity to help browsers determine which rule sets to apply when there are conflicts. You can read about CSS specificity on the MDN Docs website.
